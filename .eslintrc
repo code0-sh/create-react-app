@@ -10,6 +10,7 @@
     "react/jsx-no-bind": 0,
     "jsx-a11y/img-uses-alt": 0,
     "jsx-a11y/redundant-alt": 0,
-    "jsx-a11y/valid-aria-role": 0
+    "jsx-a11y/valid-aria-role": 0,
+    "react/forbid-prop-types": 0,
   }
 }
