@@ -1,6 +1,7 @@
 
 import React from 'react';
 import Comment from './Comment';
+import PropTypes from 'prop-types';
 
 class CommentList extends React.Component {
   constructor(props) {
@@ -19,7 +20,7 @@ class CommentList extends React.Component {
 }
 
 CommentList.propTypes = {
-  data: React.PropTypes.object,
+  data: PropTypes.object,
 };
 
 export default CommentList;

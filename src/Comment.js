@@ -1,5 +1,6 @@
 import React from 'react';
 import marked from 'marked';
+import PropTypes from 'prop-types';
 
 class Comment extends React.Component {
   rawMarkup() {
@@ -18,8 +19,8 @@ class Comment extends React.Component {
 }
 
 Comment.propTypes = {
-  author: React.PropTypes.string,
-  children: React.PropTypes.string,
+  author: PropTypes.string,
+  children: PropTypes.string,
 };
 
 export default Comment;

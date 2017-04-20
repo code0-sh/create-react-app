@@ -1,6 +1,7 @@
 import React from 'react';
 import CommentList from './CommentList';
 import CommentForm from './CommentForm';
+import PropTypes from 'prop-types';
 
 const CommentBox = props => (
   <div className="commentBox">
@@ -11,7 +12,7 @@ const CommentBox = props => (
 );
 
 CommentBox.propTypes = {
-  data: React.PropTypes.object,
+  data: PropTypes.object,
 };
 
 export default CommentBox;
