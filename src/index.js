@@ -9,8 +9,6 @@ const data = {
 };
 
 ReactDOM.render(
-  <div>
-    <App data={data} />
-  </div>,
+  <App data={data} />,
   document.getElementById('root')
 );
